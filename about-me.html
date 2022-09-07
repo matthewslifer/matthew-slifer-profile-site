@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<meta name="viewport" content="width=device-width, intitial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://github.com/matthewslifer/matthew-slifer-profile-site/blob/main/appAcademyLogo.png?raw=true');
+@import url("https://github.com/matthewslifer/matthew-slifer-profile-site/blob/main/CAES.png?raw=true");
+@import url("https://github.com/matthewslifer/matthew-slifer-profile-site/blob/main/UCDavisLogo.png?raw=true");
+@import url("https://github.com/matthewslifer/matthew-slifer-profile-site/blob/main/LasPoLogo.jpg?raw=true");
+body {
+    font-family: 'Roboto',sans-serif;
+    }
+.sidenavigation {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(60, 55, 55);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+    }
+
+.sidenavigation a {
+    padding: 8px 8px 8px 35px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #908a8a;
+    display: block;
+    transition: 0.3s;
+    }
+
+.sidenavigation a:hover {
+    color: rgb(226, 219, 219)
+    }
+
+.sidenavigation .close-button {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px) {
+    .side-navigation {padding-top: 15px;}
+    .side-navigation a {font-size: 18px;}
+    }
+h1 {
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    height: 20%;
+    left: 15%;
+}
+
+.AppAcademy {
+    position: absolute;
+    display: block;
+    left: 35%;
+    right: 15%;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-2 {
+    position: absolute;
+    height: 20%;
+    left: 15%;
+    top: 70%;
+}
+
+.CAES {
+    position: absolute;
+    display: block;
+    left: 35%;
+    right: 15%;
+    padding: 0;
+    margin: 0;
+    top: 70%
+}
+
+.logo-3 {
+    position: absolute;
+    height: 20%;
+    left: 15%;
+    top: 130%;
+}
+
+.UCDavis {
+    position: absolute;
+    display: block;
+    left: 35%;
+    right: 15%;
+    padding: 0;
+    margin: 0;
+    top: 130%
+}
+
+.logo-4 {
+    position: absolute;
+    height: 20%;
+    left: 15%;
+    top: 190%;
+}
+
+.LasPositas {
+    position: absolute;
+    display: block;
+    left: 35%;
+    right: 15%;
+    padding: 0;
+    margin: 0;
+    top: 190%
+}
+
+
+
+
+
+
+</style>
+</head>
+
+
+
+<body>
+<div id="SideNav" class="sidenavigation">
+    <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about-me.html">About Me</a>
+    <a href="my-projects.html">My Projects</a>
+</div>
+<span style="font-size:30px;cursor:pointer;color:rgb(0, 0, 0);" onclick="openNav()">&#9776; open</span>
+<h1>About Me</h1>
+<img class="logo" src="https://github.com/matthewslifer/matthew-slifer-profile-site/blob/main/appAcademyLogo.png?raw=true" alt="App Academy Logo">
+<div class="AppAcademy">
+    <h2><a href="https://www.appacademy.io">App Academy</a></h2>
+    <h3>Student, Since July 2022</h3>
+    <h4>San Francisco, CA</h4>
+    <p>After graduating college, I started doing the typical job hunting in the field of Environmental Science. Quite frankly, I was discouraged by the limited number of positions available and was questioning my major choice. I sat down and evaluated what it was I wanted to do and where my interests were. I remembered in one of my classes, we used Python to build a function while working with some data. There was something satisfying and intriguing to me about typing something into a computer and having the code be executed. Not long after, I started taking a free online course in Python and knew immediately that I wanted to pursure a career in computer programming. I enrolled in App Academy to furthur develop, test, and perfect my skills. I am currently learning Python, SQL, HTML, JavaScript, and CSS. I am beyond excited to take the skills that I am learning and implement them in various ways to solve any problem and create a refined product.</p>
+</div>
+<img class="logo-2" src="https://github.com/matthewslifer/matthew-slifer-profile-site/blob/main/CAES.png?raw=true" alt="College of Agricultural and Environmental Sciences">
+<div class="CAES">
+    <h2><a href="https://caes.ucdavis.edu">College of Agricultural and Environmental Sciences</a></h2>
+    <h3>Research Analyst, September 2021 to June 2022</h3>
+    <h4>Davis, California</h4>
+    <p>While going to school in Davis, I wanted to intern for a position that would utilize my knowledge in Environmental Science while expanding my skills. I came across this position while taking a class with my wonderful professor, <a href="https://desp.ucdavis.edu/people/gwen-arnold">Gwen Arnold</a>, when she was discussing that she was leading a research project. The project sought out to investigate the social and economic impact of hydraulic fracking. In this position, I compiled, evaluated, and performed statistical analysis through Microsoft Excel and Google Sheets. I also worked with an amazing team of interns to carry out these tasks. This position taught me how to critically and accurately perform data analysis. I am so grateful to have been able to work directly with one of my favorite Professors. The expertise I learned in this position is something that I could not have learned in school and I cannot wait to implement and improve upon these skills in future positions!</p>
+</div>
+<img class="logo-3" src="https://github.com/matthewslifer/matthew-slifer-profile-site/blob/main/UCDavisLogo.png?raw=true" alt="University of California, Davis logo">
+<div class="UCDavis">
+    <h2><a href="https://www.ucdavis.edu">University of California, Davis</a></h2>
+    <h3>B.S. Environmental Science and Management, recieved June 2022</h3>
+    <h4>Davis, California</h4>
+    <p>UC Davis is a world renowned public university offering a wide variety of studies with some of the best Professors in the United States. I pursued and received a B.S. in Environmental Science and Management with a concentration in Natural Resource Management. I am lucky enough to have had some of the best experts in the world in Environmental Science as my professors. In my coursework, I got to dive into Environmental Science while developing critical analysis skills, scientific data analysis skills, and complex problem solving. Going to Davis also expanded my view of the world. I had the opportunity to connect and work with people from all walks of life including people from different countries. I am humbled to have gotten to know, and learn, from these people. Going to UC Davis taught me how to tackle challenges, persevere through adversity, and how important it is to continually learn throughout life. Go Aggies!</p>
+</div>
+<img class="logo-4" src="https://github.com/matthewslifer/matthew-slifer-profile-site/blob/main/LasPoLogo.jpg?raw=true" alt="Las Positas Community College Logo">
+<div class="LasPositas">
+    <h2><a href="http://www.laspositascollege.edu">Las Positas College</a></h2>
+    <h3>Student, August 2018 to June 2020</h3>
+    <h4>Livermore, California</h4>
+    <p>Las Positas College was the start of my journey in pursuing higher education. The coursework at Las Positas prepared me for transfering the University of California, Davis. In my diverse array of courses I took at Las Positas, I learned the fundamentals of problem solving and critical analysis. I am thankful for my years at community college because it allowed me to develop myself as an adult while still obtaining an education.</p>
+</div>
+        <!--Function for the opening and closing elements in Java-->
+<script>
+function openNav() {
+  document.getElementById("SideNav").style.width = "350px";
+}
+
+function closeNav() {
+  document.getElementById("SideNav").style.width = "0";
+}
+</script>
+</body>
+</html>
